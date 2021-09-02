@@ -1,0 +1,25 @@
+name: Codecov Workflow
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Run codecov action
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Codecov
+        # You may pin to the exact commit or the version.
+        # uses: codecov/codecov-action@5a8bb4701eca7ba3673f21664b887f652c58d0a3
+        uses: codecov/codecov-action@v2.0.3
+        with:
+          # Repository upload token - get it from codecov.io. Required only for private repositories
+          token: c56993f8-e4a0-428e-8dbf-85f848d7777f
+          
+          

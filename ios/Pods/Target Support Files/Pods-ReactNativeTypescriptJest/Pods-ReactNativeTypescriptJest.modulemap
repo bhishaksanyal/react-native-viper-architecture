@@ -1,0 +1,6 @@
+module Pods_ReactNativeTypescriptJest {
+  umbrella header "Pods-ReactNativeTypescriptJest-umbrella.h"
+
+  export *
+  module * { export * }
+}
