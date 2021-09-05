@@ -20,6 +20,6 @@ jobs:
         uses: codecov/codecov-action@v2.0.3
         with:
           # Repository upload token - get it from codecov.io. Required only for private repositories
-          token: c56993f8-e4a0-428e-8dbf-85f848d7777f
+          token: d4b2d1fb-2859-432a-bd35-49d214d4f8db
           
           
