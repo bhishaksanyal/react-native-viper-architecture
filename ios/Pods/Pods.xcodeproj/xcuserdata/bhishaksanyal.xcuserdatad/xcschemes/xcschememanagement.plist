@@ -74,12 +74,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ReactNativeTypescriptJest-ReactNativeTypescriptJestTests.xcscheme</key>
+		<key>Pods-RNViperTodoApp-RNViperTodoAppTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ReactNativeTypescriptJest.xcscheme</key>
+		<key>Pods-RNViperTodoApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -235,6 +235,11 @@
 			<false/>
 		</dict>
 		<key>libevent.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>react-native-flipper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
