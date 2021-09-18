@@ -2,7 +2,7 @@
   "name": "react-native-typescript-template",
   "version": "0.0.1",
   "private": false,
-  "description": "A Typescript React Native boilerplate to start your project quickly",
+  "description": "A Typescript React Native viper architecture example",
   "author": "Bhishak Sanyal <sanyalbishak93@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -20,6 +20,7 @@
     "prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx} && npx prettier --write *.{js,jsx,ts,tsx}"
   },
   "dependencies": {
+    "@react-navigation/devtools": "^6.0.1",
     "@react-navigation/native": "^6.0.2",
     "react": "17.0.2",
     "react-native": "0.65.1",
@@ -43,6 +44,7 @@
     "metro-react-native-babel-preset": "^0.66.0",
     "prettier": "^2.3.2",
     "react-native-codegen": "^0.0.7",
+    "react-native-flipper": "^0.110.0",
     "react-test-renderer": "17.0.2",
     "typescript": "^3.8.3"
   },
